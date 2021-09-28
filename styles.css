@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    padding: 60px;
+    margin: 30px;
+    color: white;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.timer {
+    width: 80%;
+    display: flex;
+    margin: 50px;
+    /* border: 1px solid red; */
+    color: white;
+    justify-content: space-evenly;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+}
+
+.box .unit {
+    font-size: 3rem;
+    font-weight: bold;
+}
